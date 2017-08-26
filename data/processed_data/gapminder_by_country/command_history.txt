@@ -1,0 +1,242 @@
+    1  nano test.txt
+    2  pwd
+    3  pwd
+    4  ls
+    5  ls -l
+    6  ls -l -S
+    7  ls -lS
+    8  ls -lSh
+    9  man h
+   10  man ls
+   11  help ls
+   12  man ls
+   13  manual ls
+   14  ? ls
+   15  ls
+   16  man ls
+   17  ls --help
+   18  ls --help | less
+   19  ls -ls
+   20  ls --help | less
+   21  cd Desktop/
+   22  ls desktop
+   23  ~
+   24  cd ~
+   25  ls -lSh
+   26  cd Desktop
+   27  ls -ls | less
+   28  pwd
+   29  cd ~
+   30  cd Desktop
+   31  cd ..
+   32  cd ..
+   33  cd Desktop
+   34  ls -l
+   35  cd ~
+   36  mkdir SDC_workshop_20170826
+   37   SDC_workshop_20170826
+   38   SDC_workshop_20170826
+   39  cd SDC_workshop_20170826/
+   40  pwd
+   41  mkdir test
+   42  cd test
+   43  pwd test
+   44  ls
+   45  nano
+   46  nano greeting.txt
+   47  ls
+   48  cat greeting.txt 
+   49  nano greeting.txt
+   50  cat greeting.txt 
+   51  ls
+   52  cp -i greeting.txt ~/Desktop/ 
+   53  cd ~
+   54  cd Desktop
+   55  ls
+   56  pwd
+   57  cd..
+   58  cd ../SDC_workshop_20170826/
+   59  ls
+   60  rm -i test/
+   61  cd test
+   62  rm -i greeting.txt
+   63  nano greeting.txt
+   64  pwd
+   65  ls
+   66  pwd
+   67  cd..
+   68  cd ..
+   69  ls
+   70  rm -i -r test/
+   71  cd ~
+   72  pwd
+   73  cd Desktop
+   74  cd ~
+   75  pwd
+   76  ls
+   77  cd SDC_workshop_20170826/
+   78  mkdir data
+   79  cd data
+   80  mkdir orignial_data
+   81  mkdir processed_data
+   82  cd..
+   83  ls
+   84  cd..
+   85  mkdir analysis
+   86  mkdir script
+   87  dir/
+   88  ls
+   89  cd..
+   90  cd ..
+   91  ls
+   92  mkdir analysis
+   93  mkdir script
+   94  cd data
+   95  rm -i orignial_data/
+   96  rm -i -d orignial_data/
+   97  rm -i -d processed_data/
+   98  ls
+   99  cd..
+  100  ls
+  101  cd..
+  102  dir
+  103  rm -i -d analysis/
+  104  rm -i -d script/
+  105  cd ..
+  106  ls
+  107  cd data
+  108  mkdir original_data
+  109  mkdir processed_data
+  110  ls
+  111  cd ..
+  112  mkdir shell
+  113  ls
+  114  mv /analysis/  to  /shell/
+  115  ls 
+  116  pwd
+  117  mv analysis shell/
+  118  mv data script shell/
+  119  ls
+  120  cd shell
+  121  ls
+  122  cd ~
+  123  cd Desktop/
+  124  git clone https://github.com/uhilgert/gapminderdata
+  125  ls
+  126  cd gapminderdata/
+  127  ls
+  128  ls | wc -l
+  129  cd gapminder_by_country/
+  130  ls | wc -l
+  131  cd..
+  132  cd ..
+  133  cd~
+  134  cd ~
+  135  cd Desktop/
+  136  cd ~/SDC_workshop_20170826//shell/
+  137  ls
+  138  git init
+  139  ls
+  140  cd ..
+  141  dir
+  142  ls
+  143  cd ~
+  144  cd Desktop/gapminder/data
+  145  cd Desktop/
+  146  cd gapminderdata/
+  147  cp -i -r x ~/SDC_workshop_20170826/shell/data/original_data/
+  148  cp -i -r * ~/SDC_workshop_20170826/shell/data/original_data/
+  149  cp -i -r * ~/SDC_workshop_20170826/shell/data/original_data/
+  150  cd ~/SDC_workshop_20170826/shell/data/original_data/
+  151  ls -l | less
+  152  ls
+  153  ls | wc -l
+  154  cd gapminder_by_country/
+  155* 
+  156  ls | wc -l
+  157  cd ..
+  158  ls
+  159  cp -i Afghanistan_Raw.xlsx  ../processed_data/
+  160  cd ../processed_data/
+  161  ls
+  162  cat Afghanistan_Raw.txt
+  163  cat Afghanistan_Raw.txt
+  164  cat Afghanistan_Raw.csv
+  165  nano Afghanistan_Raw.csv
+  166  cat Afghanistan_Raw.csv
+  167  nano Afghanistan_Raw.csv
+  168  ls
+  169  nano Afghanistan_Raw.csv
+  170  cat Afghanistan_Raw.csv
+  171  ls
+  172  ls -l
+  173  ls -l
+  174  pwd
+  175  cd ..
+  176  pwd
+  177  cd..
+  178  cd ..
+  179  pwd
+  180  git status
+  181  git add -A
+  182  git status
+  183  git commit -m "changed files in shell"
+  184  git status
+  185  history
+  186  git remote add origin https://github.com/ssrsrb/the-stuff-from-the-morning-session-20170826.git
+  187  git push -u origin master
+  188  git push -u origin master
+  189  cd ..
+  190  cp -ir gapminder_by_country/ ../processed_data/
+  191  cd shell/data/original_data/gapminder_by_country/
+  192* cp -ir 
+  193  cd shell/data/processed_data/gapminder_by_country/
+  194  cd ~/shell/data/processed_data/gapminder_by_country/
+  195  cd ~
+  196  cd SDC_workshop_20170826/shell/data/processed_data/
+  197  ls -l
+  198  cd shell/data/original_data/gapminder_by_country/
+  199  ls -l
+  200  cd shell/data/original_data/
+  201  ls -l
+  202  cd shell/data/original_data/
+  203  cd ..
+  204  ls
+  205  cd original_data/
+  206  ls
+  207  cd gapminder_by_country/
+  208  ls
+  209  cp -ir gapminder_by_country/ ../processed_data/
+  210  cp -ir ../gapminder_by_country/ ../processed_data/
+  211  cp -ir * ../gapminder_by_country/ ../processed_data/
+  212  ls -l | less
+  213  pwd
+  214  cd ~
+  215  cd SDC_workshop_20170826/shell/data/processed_data/
+  216  cp --help
+  217  ls -l
+  218  cp -ir ../original_data/gapminder_by_country .
+  219  ls
+  220  cd gapminder_by_country/
+  221  ls
+  222  cat *.cc.txt > gapminder_firsttry.txt
+  223  ls
+  224  ls -ltr
+  225  less gapminder_firsttry.txt 
+  226  mv country.cc.txt country.txt
+  227  cat country.txt *.cc.txt > gapminder_secondtry.txt
+  228  less gapminder_secondtry.txt 
+  229  ls -l
+  230  cat Togo.cc.txt 
+  231  cat gapminder_secondtry.txt 
+  232  ls -ltr
+  233  mw gapminder_secondtry.txt gapminder.txt
+  234  mv gapminder_secondtry.txt gapminder.txt
+  235  ls -ltr
+  236  ls -ltrh
+  237  git status
+  238  git add -A
+  239  git commit -m "added merged files"
+  240  git push
+  241  history | less
+  242  history > command_history.txt
